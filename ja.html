@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>チェ・スビンのポートフォリオ</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>html { scroll-behavior: smooth; }</style>
+</head>
+<body class="bg-gray-50 font-sans">
+  <!-- Heroセクション -->
+  <div id="home" class="relative bg-gradient-to-r from-blue-600 to-indigo-600">
+    <!-- SVGパターンオーバーレイ -->
+    <svg class="absolute left-0 top-0 w-full h-full opacity-25 pointer-events-none" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <pattern id="dotPatternHero" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+          <circle cx="2" cy="2" r="2" fill="#a5b4fc" />
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#dotPatternHero)" />
+    </svg>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div class="text-center animate-fadeIn">
+        <div class="relative inline-block mb-6">
+          <span class="absolute inset-0 w-32 h-32 rounded-full bg-white shadow-lg mx-auto" style="z-index:1;"></span>
+          <img src="ssb.png" alt="チェ・スビン" class="relative mx-auto w-32 h-32 rounded-full border-4 border-white shadow-lg object-cover" style="z-index:2;">
+        </div>
+        <h1 class="text-4xl font-extrabold text-white mb-2">チェ・スビンのポートフォリオ</h1>
+        <p class="text-lg text-blue-100 mb-2">映像アニメーション学科学生の創作スペース</p>
+      </div>
+    </div>
+    <div class="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-gray-50 to-transparent"></div>
+  </div>
+  <!-- ナビゲーションバー -->
+  <nav class="sticky top-0 z-40 bg-gradient-to-r from-blue-600 to-indigo-600 shadow-lg animate-fadeIn animate-delay-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16 items-center">
+        <div class="flex space-x-8">
+          <a href="#home" class="text-white font-semibold hover:text-blue-200 transition">ホーム</a>
+          <a href="#course" id="courseNav" class="text-white font-semibold hover:text-blue-200 transition">履修内容</a>
+          <a href="#gallery" class="text-white font-semibold hover:text-blue-200 transition">作品</a>
+          <a href="#contact" class="text-white font-semibold hover:text-blue-200 transition">連絡先</a>
+        </div>
+        <div class="flex space-x-2">
+          <a href="index.html" class="text-white font-semibold hover:text-blue-200 transition">한글</a>
+          <span class="text-blue-200">|</span>
+          <a href="en.html" class="text-white font-semibold hover:text-blue-200 transition">English</a>
+          <span class="text-blue-200">|</span>
+          <a href="ja.html" class="text-white font-semibold hover:text-blue-200 transition">日本語</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <!-- プロフィールセクション -->
+    <div class="bg-white rounded-lg shadow-xl p-8 mb-8 animate-fadeIn animate-delay-200">
+      <div class="text-center">
+        <h1 class="text-3xl font-bold text-gray-900 mb-4">チェ・スビン</h1>
+        <p class="text-xl text-gray-600 mb-2">啓明大学 映像アニメーション学科</p>
+        <p class="text-lg text-gray-500">学籍番号: 5835358</p>
+      </div>
+    </div>
+    <!-- 学科紹介 -->
+    <section id="about" class="bg-white rounded-lg shadow-xl p-8 mb-8 animate-fadeIn animate-delay-300">
+      <h2 class="text-2xl font-bold text-gray-900 mb-4">映像アニメーション学科紹介</h2>
+      <div class="prose max-w-none">
+        <p>
+          啓明大学 映像アニメーション学科は、アニメーション、映像制作、ゲームグラフィック、3Dモデリングなどのデジタルコンテンツ制作分野で創造的な専門家を育成することを目指しています。理論と実践のバランスを重視し、創造力と専門性を兼ね備えた人材を育てます。
+        </p>
+      </div>
+    </section>
+    <!-- 履修内容セクション -->
+    <section id="course">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-white rounded-lg shadow-xl p-8 animate-fadeIn animate-delay-400">
+          <h2 class="text-2xl font-bold text-gray-900 mb-6">履修内容</h2>
+          <div class="space-y-4">
+            <div class="border-l-4 border-blue-500 pl-4 animate-fadeIn animate-delay-500">
+              <h3 class="text-lg font-semibold text-gray-800">プラットフォームコンテンツ基礎プログラミング</h3>
+              <p class="text-gray-600">Web開発の基礎とプログラミング原理の学習</p>
+            </div>
+            <div class="border-l-4 border-green-500 pl-4 animate-fadeIn animate-delay-600">
+              <h3 class="text-lg font-semibold text-gray-800">キャラクターデザイン</h3>
+              <p class="text-gray-600">キャラクター制作の基礎と応用</p>
+            </div>
+            <div class="border-l-4 border-yellow-500 pl-4 animate-fadeIn animate-delay-700">
+              <h3 class="text-lg font-semibold text-gray-800">ゲームグラフィック</h3>
+              <p class="text-gray-600">ゲームアートワークとグラフィックデザイン</p>
+            </div>
+            <div class="border-l-4 border-red-500 pl-4 animate-fadeIn animate-delay-800">
+              <h3 class="text-lg font-semibold text-gray-800">メディア創作スタジオ</h3>
+              <p class="text-gray-600">多様なメディアコンテンツ制作実習</p>
+            </div>
+          </div>
+        </div>
+        <!-- 使用プログラム -->
+        <div class="bg-white rounded-lg shadow-xl p-10 animate-fadeIn animate-delay-700">
+          <h2 class="text-2xl font-bold text-gray-900 mb-2">作品で使用したプログラム</h2>
+          <div class="space-y-4">
+            <div class="flex items-center gap-6 text-xl py-2">
+              <span class="text-gray-400 text-2xl">→</span>
+              <span class="px-5 py-2 rounded-full bg-green-100 text-green-800 font-semibold shadow text-base">Unity</span>
+            </div>
+            <div class="flex items-center gap-6 text-xl py-2">
+              <span class="text-gray-400 text-2xl">→</span>
+              <span class="px-5 py-2 rounded-full bg-blue-100 text-blue-800 font-semibold shadow text-base">Maya</span>
+              <span class="px-5 py-2 rounded-full bg-purple-100 text-purple-800 font-semibold shadow text-base">AfterEffects</span>
+            </div>
+            <div class="flex items-center gap-6 text-xl py-2">
+              <span class="text-gray-400 text-2xl">→</span>
+              <span class="px-5 py-2 rounded-full bg-gray-100 text-gray-800 font-semibold shadow text-base">Unreal Engine</span>
+              <span class="px-5 py-2 rounded-full bg-red-100 text-red-800 font-semibold shadow text-base">Zbrush</span>
+            </div>
+            <div class="flex items-center gap-6 text-xl py-2">
+              <span class="text-gray-400 text-2xl">→</span>
+              <span class="px-5 py-2 rounded-full bg-yellow-100 text-yellow-800 font-semibold shadow text-base">Blender</span>
+              <span class="px-5 py-2 rounded-full bg-pink-100 text-pink-800 font-semibold shadow text-base">Cinema4D</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 作品ギャラリー -->
+    <section id="gallery" class="bg-gray-50 py-12 animate-fadeIn animate-delay-1000">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-gray-900 mb-12 text-center">全作品ギャラリー</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 gallery-section">
+          <video class="w-full h-full object-cover rounded cursor-pointer" controls onclick="openModal('video', 'Myfirstshooter.mp4')">
+            <source src="Myfirstshooter.mp4" type="video/mp4">
+          </video>
+          <img src="게임뷰_Success.png" alt="ゲーム成功画面" class="w-full h-full object-cover rounded cursor-pointer" onclick="openModal('img', '게임뷰_Success.png')">
+          <img src="게임뷰_Fail.png" alt="ゲーム失敗画面" class="w-full h-full object-cover rounded cursor-pointer" onclick="openModal('img', '게임뷰_Fail.png')">
+          <img src="게임뷰_Level01.png" alt="ゲームレベル1画面" class="w-full h-full object-cover rounded cursor-pointer" onclick="openModal('img', '게임뷰_Level01.png')">
+          <video class="w-full h-full object-cover rounded cursor-pointer" controls onclick="openModal('video', 'dragon.mp4')">
+            <source src="dragon.mp4" type="video/mp4">
+          </video>
+          <video class="w-full h-full object-cover rounded cursor-pointer" controls onclick="openModal('video', 'Trolls01.mp4')">
+            <source src="Trolls01.mp4" type="video/mp4">
+          </video>
+          <video class="w-full h-full object-cover rounded cursor-pointer" controls onclick="openModal('video', 'Trolls02.mp4')">
+            <source src="Trolls02.mp4" type="video/mp4">
+          </video>
+          <img src="Robot_tex.jpg" alt="ロボットテクスチャ" class="w-full h-full object-cover rounded cursor-pointer" onclick="openModal('img', 'Robot_tex.jpg')">
+          <img src="MeetMet.jpg" alt="Meet Met" class="w-full h-full object-cover rounded cursor-pointer" onclick="openModal('img', 'MeetMet.jpg')">
+          <img src="unreal_03.png" alt="Unreal シーン03" class="w-full h-full object-cover rounded cursor-pointer" onclick="openModal('img', 'unreal_03.png')">
+          <img src="unreal_02.png" alt="Unreal シーン02" class="w-full h-full object-cover rounded cursor-pointer" onclick="openModal('img', 'unreal_02.png')">
+          <img src="unreal_01.png" alt="Unreal シーン01" class="w-full h-full object-cover rounded cursor-pointer" onclick="openModal('img', 'unreal_01.png')">
+          <video class="w-full h-full object-cover rounded cursor-pointer" controls onclick="openModal('video', 'Santorini_ani.mp4')">
+            <source src="Santorini_ani.mp4" type="video/mp4">
+          </video>
+          <video class="w-full h-full object-cover rounded cursor-pointer" controls onclick="openModal('video', 'LogHouse_ani.mp4')">
+            <source src="LogHouse_ani.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </section>
+    <!-- Modal Overlay -->
+    <div id="galleryModal" class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-80 hidden" onclick="closeModal()">
+      <div class="relative max-w-3xl w-full flex items-center justify-center">
+        <button onclick="closeModal()" class="absolute top-2 right-2 text-white text-3xl font-bold z-10 hover:text-blue-300 transition">&times;</button>
+        <div id="modalContent" class="w-full flex items-center justify-center"></div>
+      </div>
+    </div>
+  </main>
+  <!-- フッター -->
+  <footer id="contact" class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white mt-12 animate-fadeIn animate-delay-1000">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+      <div class="text-center">
+        <div class="text-lg font-semibold mb-2">連絡先</div>
+        <div class="space-y-1">
+          <a href="mailto:sbyoup076@gmail.com" class="text-white hover:text-blue-200 transition">sbyoup076@gmail.com</a><br>
+          <a href="tel:010-7375-4185" class="text-white hover:text-blue-200 transition">010-7375-4185</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- トップへ戻るボタンとスクリプト（韓国語版と同じ） -->
+  <button id="scrollTopBtn" class="hidden fixed bottom-8 right-8 z-50 bg-blue-600 hover:bg-blue-800 text-white rounded-full shadow-lg p-4 transition-opacity duration-300 focus:outline-none" aria-label="トップへ戻る">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+    </svg>
+  </button>
+  <script>
+    document.getElementById('courseNav').addEventListener('click', function(e) {
+      e.preventDefault();
+      const section = document.getElementById('course');
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    });
+    const scrollTopBtn = document.getElementById('scrollTopBtn');
+    window.addEventListener('scroll', function() {
+      if ((window.innerHeight + window.scrollY) >= (document.body.offsetHeight - 200)) {
+        scrollTopBtn.classList.remove('hidden');
+        scrollTopBtn.classList.add('opacity-100');
+      } else {
+        scrollTopBtn.classList.add('hidden');
+        scrollTopBtn.classList.remove('opacity-100');
+      }
+    });
+    scrollTopBtn.addEventListener('click', function() {
+      const hero = document.getElementById('home');
+      if (!hero) {
+        window.scrollTo({ top: 0, behavior: 'auto' });
+        return;
+      }
+      const targetY = hero.getBoundingClientRect().top + window.pageYOffset;
+      const startY = window.pageYOffset;
+      const distance = targetY - startY;
+      const duration = 200;
+      let startTime = null;
+      window.scrollTo(0, startY);
+      function animateScroll(currentTime) {
+        if (!startTime) startTime = currentTime;
+        const elapsed = currentTime - startTime;
+        const progress = Math.min(elapsed / duration, 1);
+        const ease = progress < 0.5 ? 2 * progress * progress : -1 + (4 - 2 * progress) * progress;
+        window.scrollTo(0, startY + distance * ease);
+        if (progress < 1) {
+          requestAnimationFrame(animateScroll);
+        }
+      }
+      requestAnimationFrame(animateScroll);
+    });
+    function closeModal() {
+      // Pause and reset modal video
+      const video = document.querySelector('#modalContent video');
+      if (video) {
+        video.pause();
+        video.currentTime = 0;
+      }
+      // Pause and reset all gallery-section videos
+      document.querySelectorAll('.gallery-section video').forEach(v => {
+        v.pause();
+        v.currentTime = 0;
+      });
+      document.getElementById('galleryModal').classList.add('hidden');
+      document.getElementById('modalContent').innerHTML = '';
+    }
+    function openModal(type, src) {
+      const modal = document.getElementById('galleryModal');
+      const content = document.getElementById('modalContent');
+      if(type === 'img') {
+        content.innerHTML = `<img src="${src}" class='max-h-[80vh] max-w-full rounded shadow-xl' alt='作品画像'>`;
+      } else if(type === 'video') {
+        content.innerHTML = `<video src="${src}" controls autoplay class='max-h-[80vh] max-w-full rounded shadow-xl'></video>`;
+      }
+      modal.classList.remove('hidden');
+    }
+  </script>
+</body>
+</html> 
